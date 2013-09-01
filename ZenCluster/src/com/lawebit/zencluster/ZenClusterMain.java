@@ -18,7 +18,7 @@ public class ZenClusterMain {
 		}
 		
 		Server server = new Server();
-		Protocol.registerAll(server.getKryo()); 
+		Protocol.registerAll(server.getKryo());
 		server.bind(oListenPort);
 		
 		
